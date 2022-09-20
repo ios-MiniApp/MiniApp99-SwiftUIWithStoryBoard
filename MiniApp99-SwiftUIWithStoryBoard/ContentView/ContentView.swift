@@ -6,18 +6,20 @@
 //
 
 import SwiftUI
+import UIKit
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationView {
+            NavigationLink(destination: SecondView()){
+                Text("画面２へ")
+            }
+            .navigationBarTitleDisplayMode(.inline)
+            .navigationTitle("画面１")
         }
-        .padding()
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {

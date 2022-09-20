@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		87DA761728D93E2D009A65E9 /* SecomdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DA761528D93E2D009A65E9 /* SecomdViewController.swift */; };
+		87DA761828D93E2D009A65E9 /* SecomdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87DA761628D93E2D009A65E9 /* SecomdViewController.xib */; };
 		87DDF80F28D939DD00D0085F /* MiniApp99_SwiftUIWithStoryBoardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DDF80E28D939DD00D0085F /* MiniApp99_SwiftUIWithStoryBoardApp.swift */; };
 		87DDF81128D939DD00D0085F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DDF81028D939DD00D0085F /* ContentView.swift */; };
 		87DDF81328D939DE00D0085F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87DDF81228D939DE00D0085F /* Assets.xcassets */; };
 		87DDF81628D939DE00D0085F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87DDF81528D939DE00D0085F /* Preview Assets.xcassets */; };
+		87DDF82728D93C1A00D0085F /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DDF82628D93C1A00D0085F /* SecondView.swift */; };
+		87DDF82D28D93D3E00D0085F /* ThirdView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87DDF82C28D93D3E00D0085F /* ThirdView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		87DA761528D93E2D009A65E9 /* SecomdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecomdViewController.swift; sourceTree = "<group>"; };
+		87DA761628D93E2D009A65E9 /* SecomdViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecomdViewController.xib; sourceTree = "<group>"; };
 		87DDF80B28D939DD00D0085F /* MiniApp99-SwiftUIWithStoryBoard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MiniApp99-SwiftUIWithStoryBoard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		87DDF80E28D939DD00D0085F /* MiniApp99_SwiftUIWithStoryBoardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniApp99_SwiftUIWithStoryBoardApp.swift; sourceTree = "<group>"; };
 		87DDF81028D939DD00D0085F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		87DDF81228D939DE00D0085F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87DDF81528D939DE00D0085F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		87DDF82628D93C1A00D0085F /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
+		87DDF82C28D93D3E00D0085F /* ThirdView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,10 @@
 		87DDF80D28D939DD00D0085F /* MiniApp99-SwiftUIWithStoryBoard */ = {
 			isa = PBXGroup;
 			children = (
+				87DDF82E28D93D4600D0085F /* ContentView */,
+				87DDF82F28D93D5100D0085F /* SecondView */,
+				87DDF83028D93D7200D0085F /* ThirdView */,
 				87DDF80E28D939DD00D0085F /* MiniApp99_SwiftUIWithStoryBoardApp.swift */,
-				87DDF81028D939DD00D0085F /* ContentView.swift */,
 				87DDF81228D939DE00D0085F /* Assets.xcassets */,
 				87DDF81428D939DE00D0085F /* Preview Content */,
 			);
@@ -65,6 +75,32 @@
 				87DDF81528D939DE00D0085F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		87DDF82E28D93D4600D0085F /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				87DDF81028D939DD00D0085F /* ContentView.swift */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		87DDF82F28D93D5100D0085F /* SecondView */ = {
+			isa = PBXGroup;
+			children = (
+				87DDF82628D93C1A00D0085F /* SecondView.swift */,
+				87DA761528D93E2D009A65E9 /* SecomdViewController.swift */,
+				87DA761628D93E2D009A65E9 /* SecomdViewController.xib */,
+			);
+			path = SecondView;
+			sourceTree = "<group>";
+		};
+		87DDF83028D93D7200D0085F /* ThirdView */ = {
+			isa = PBXGroup;
+			children = (
+				87DDF82C28D93D3E00D0085F /* ThirdView.swift */,
+			);
+			path = ThirdView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +161,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87DA761828D93E2D009A65E9 /* SecomdViewController.xib in Resources */,
 				87DDF81628D939DE00D0085F /* Preview Assets.xcassets in Resources */,
 				87DDF81328D939DE00D0085F /* Assets.xcassets in Resources */,
 			);
@@ -137,8 +174,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87DA761728D93E2D009A65E9 /* SecomdViewController.swift in Sources */,
+				87DDF82D28D93D3E00D0085F /* ThirdView.swift in Sources */,
 				87DDF81128D939DD00D0085F /* ContentView.swift in Sources */,
 				87DDF80F28D939DD00D0085F /* MiniApp99_SwiftUIWithStoryBoardApp.swift in Sources */,
+				87DDF82728D93C1A00D0085F /* SecondView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
